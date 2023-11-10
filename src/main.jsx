@@ -7,24 +7,30 @@ import ErrorPage from './components/ErrorPage/ErrorPage.jsx'
 import Home from './components/Home/Home.jsx'
 import Donations from './components/Donations/Donations.jsx'
 import Statistics from './components/Statistics/Statistics.jsx'
+import DonateDetails from './components/DonateDetails/DonateDetails.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
-    children:[
+    children: [
       {
-        path:'/',
+        path: '/',
         element: <Home></Home>
       },
       {
-        path:'/donations',
+        path: '/donations',
         element: <Donations></Donations>
       },
       {
-        path:'/statistics',
+        path: '/statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: '/donate/:id',
+        element: <DonateDetails></DonateDetails>,
+        loader: () => fetch('/fund.json')
       }
 
     ]
@@ -33,6 +39,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

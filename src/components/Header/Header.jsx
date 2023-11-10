@@ -6,19 +6,19 @@ const Header = () => {
             <li><NavLink
                 to='/'
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-[#FF444A]" : ""
+                    isPending ? "pending" : isActive ? "text-[#FF444A] border-b-2 border-red-500" : ""
                 }
             >Home</NavLink></li>
             <li><NavLink
                 to='/donations'
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-[#FF444A]" : ""
+                    isPending ? "pending" : isActive ? "text-[#FF444A] border-b-2 border-red-500" : ""
                 }
             >Donation</NavLink></li>
             <li><NavLink
                 to='/statistics'
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-[#FF444A]" : ""
+                    isPending ? "pending" : isActive ? "text-[#FF444A] border-b-2 border-red-500" : ""
                 }
             >Statistics</NavLink></li>
         </>
