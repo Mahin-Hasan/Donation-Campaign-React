@@ -1,0 +1,8 @@
+.banner-bg {
+    /* background-image: url('../../../public/donation.jpg'); */
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('donation.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: 35%;
+   
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/k69KpJk/Health.png",
+        "title": "Support Education for Underprivileged Children",
+        "category": "Health",
+        "category_bg": "#3b82f6",
+        "card_bg": "#bfdbfe",
+        "text_bg": "#1e3a8a",
+        "description": "Your donation helps provide quality education to children in need.",
+        "price": 25
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/rtnGnkG/Education-1.png",
+        "title": "Clean Water for Communities",
+        "category": "Education",
+        "category_bg": "#f43f5e",
+        "card_bg": "#fecdd3",
+        "text_bg": "#881337",
+        "description": "Contribute to building wells and supplying clean water to remote areas.",
+        "price": 30
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/fvFZ10W/Clothes-1.png",
+        "title": "Healthcare for Vulnerable Families",
+        "category": "Clothing",
+        "category_bg": "#10b981",
+        "card_bg": "#a7f3d0",
+        "text_bg": "#064e3b",
+        "description": "Your support ensures access to medical care for families in crisis.",
+        "price": 20
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/B4CdB3C/Food-1.png",
+        "title": "Feed the Homeless",
+        "category": "Food",
+        "category_bg": "#f59e0b",
+        "card_bg": "#fde68a",
+        "text_bg": "#78350f",
+        "description": "Help provide meals and essential nutrition for homeless individuals.",
+        "price": 15
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/ws0qWbV/food-2.png",
+        "title": "Shelter for Displaced Families",
+        "category": "Food",
+        "category_bg": "#f59e0b",
+        "card_bg": "#fde68a",
+        "text_bg": "#78350f",
+        "description": "Support initiatives to provide temporary shelter to displaced families.",
+        "price": 40
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/r3hWdmX/clothes-2.png",
+        "title": "Empower Women & Girls",
+        "category": "Clothing",
+        "category_bg": "#10b981",
+        "card_bg": "#a7f3d0",
+        "text_bg": "#064e3b",
+        "description": "Invest in programs promoting gender equality and women's rights.",
+        "price": 35
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/GxRW69R/Education-2.png",
+        "title": "Environmental Conservation",
+        "category": "Education",
+        "category_bg": "#f43f5e",
+        "card_bg": "#fecdd3",
+        "text_bg": "#881337",
+        "description": "Help protect our planet by supporting conservation efforts.",
+        "price": 50
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/2vRRRqz/health-2.png",
+        "title": "Support Mental Health Awareness",
+        "category": "Health",
+        "category_bg": "#3b82f6",
+        "card_bg": "#bfdbfe",
+        "text_bg": "#1e3a8a",
+        "description": "Aid in promoting mental health awareness and support initiatives.",
+        "price": 30
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/ZB11QbM/health-3.png",
+        "title": "Community Development Projects",
+        "category": "Health",
+        "category_bg": "#3b82f6",
+        "card_bg": "#bfdbfe",
+        "text_bg": "#1e3a8a",
+        "description": "Contribute to local community development projects for a better future.",
+        "price": 45
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/R4jMkh3/Education-3.png",
+        "title": "Animal Welfare & Rescue",
+        "category": "Education",
+        "category_bg": "#f43f5e",
+        "card_bg": "#fecdd3",
+        "text_bg": "#881337",
+        "description": "Support animal rescue and welfare programs for a better world.",
+        "price": 25
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/pwTBBHF/clothes-3.png",
+        "title": "Disaster Relief & Aid",
+        "category": "Clothing",
+        "category_bg": "#10b981",
+        "card_bg": "#a7f3d0",
+        "text_bg": "#064e3b",
+        "description": "Assist in providing immediate relief and aid to disaster-stricken regions.",
+        "price": 55
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/mSPv5Rp/food-3.png",
+        "title": "Promote Arts & Culture",
+        "category": "Food",
+        "category_bg": "#f59e0b",
+        "card_bg": "#fde68a",
+        "text_bg": "#78350f",
+        "description": "Support the arts and cultural initiatives for a vibrant society.",
+        "price": 40
+    }
+]
