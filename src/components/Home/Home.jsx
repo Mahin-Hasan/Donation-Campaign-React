@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
     const [searchName, setSearchName] = useState('')
     const handleSearchFunctionality = category => {
-        // console.log('home', category);
+        console.log('home', category);
         setSearchName(category);
     }
     // console.log('hahash',searchName);
