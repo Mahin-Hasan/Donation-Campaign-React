@@ -1,23 +1,19 @@
 import { useState } from "react";
-
-const Banner = ({handleSearchFunctionality}) => {
+import PropTypes from 'prop-types';
+const Banner = ({ handleSearchFunctionality }) => {
     const [categoryName, setCategoryName] = useState(null);
     const handleSubmit = e => {
         e.preventDefault();
-        // console.log(categoryName);
     }
     const handleSearchText = e => {
-        // console.log(e.target.value);
         setCategoryName(e.target.value);
 
     }
-    // const handleSearchFunctionality = (name) => {
-    //     console.log('hiii', name);
-    // }
+    
     return (
         <div className="flex flex-col justify-center items-center py-28 banner-bg space-y-12">
             <div>
-                <h2 className="text-5xl font-bold">I Grow By Helping People In Need</h2>
+                <h2 className="text-2xl sm:text-5xl font-bold text-center">I Grow By Helping People In Need</h2>
             </div>
             <div>
                 <form onSubmit={handleSubmit}>
@@ -28,5 +24,7 @@ const Banner = ({handleSearchFunctionality}) => {
         </div>
     );
 };
-
+Banner.propTypes = {
+    handleSearchFunctionality: PropTypes.func
+}
 export default Banner;

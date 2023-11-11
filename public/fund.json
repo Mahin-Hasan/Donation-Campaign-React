@@ -2,7 +2,7 @@
     {
         "id": 1,
         "picture": "https://i.ibb.co/k69KpJk/Health.png",
-        "title": "Support Education for Underprivileged Children",
+        "title": "Clean water for children",
         "category": "Health",
         "category_bg": "#3b82f6",
         "card_bg": "#bfdbfe",
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "picture": "https://i.ibb.co/rtnGnkG/Education-1.png",
-        "title": "Clean Water for Communities",
+        "title": "Good education",
         "category": "Education",
         "category_bg": "#f43f5e",
         "card_bg": "#fecdd3",
@@ -24,7 +24,7 @@
     {
         "id": 3,
         "picture": "https://i.ibb.co/fvFZ10W/Clothes-1.png",
-        "title": "Healthcare for Vulnerable Families",
+        "title": "Used Clothing Drive",
         "category": "Clothing",
         "category_bg": "#10b981",
         "card_bg": "#a7f3d0",
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "picture": "https://i.ibb.co/B4CdB3C/Food-1.png",
-        "title": "Feed the Homeless",
+        "title": "Better Food for Everyone",
         "category": "Food",
         "category_bg": "#f59e0b",
         "card_bg": "#fde68a",
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "picture": "https://i.ibb.co/ws0qWbV/food-2.png",
-        "title": "Shelter for Displaced Families",
+        "title": "Supplying Food for Everyone",
         "category": "Food",
         "category_bg": "#f59e0b",
         "card_bg": "#fde68a",
@@ -57,7 +57,7 @@
     {
         "id": 6,
         "picture": "https://i.ibb.co/r3hWdmX/clothes-2.png",
-        "title": "Empower Women & Girls",
+        "title": "Clothing Charity Impact",
         "category": "Clothing",
         "category_bg": "#10b981",
         "card_bg": "#a7f3d0",

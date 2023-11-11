@@ -23,8 +23,8 @@ const Header = () => {
             >Statistics</NavLink></li>
         </>
     return (
-        <nav className="flex justify-between items-center container mx-auto">
-            <div>
+        <nav className="flex flex-col sm:flex-row justify-between items-center container mx-auto">
+            <div className="mb-5 sm:mb-0">
                 <img src="Logo.png" alt="Logo" />
             </div>
             <div>

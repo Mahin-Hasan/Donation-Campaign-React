@@ -1,45 +1,41 @@
 import { useEffect, useState } from "react";
 import Campaign from "../Campaign/Campaign";
+import PropTypes from 'prop-types';
+
+
 
 const AllCampaigns = ({ searchName }) => {
     const [campaign, setCampaign] = useState([]);
-    const [searchCampaigns, setSearchCampaigns] = useState('');
-    console.log("from allcam", searchName);
-    // const {categiry} =campaign;
-    console.log(campaign);
-    const searchCampaign = campaign.filter(item => item.category === searchName);
-    console.log("isfound", searchCampaign);
-    // setSearchCampaigns(searchCampaigns);
-    // const updateString = () => {
-    //     setSearchCampaigns(searchCampaign);
-    // };
-    // updateString()
-    console.log('allcard', searchName);
+    
     useEffect(() => {
         fetch('fund.json')
             .then(res => res.json())
             .then(data => setCampaign(data))
     }, [])
 
-    // useEffect(() => {
-    //     setSearchCampaigns(searchCampaign);
-    // }, [])
-    // console.log(campaign);
-    console.log("is it set?", searchCampaigns);
+   
+    const storeSearchName = searchName;
+    const searchNameLower = storeSearchName.toLowerCase();
 
 
 
     return (
         <section className="container mx-auto my-20">
-            <div className="grid grid-cols-4 gap-6">
+            <div className="grid mx-4 sm:mx-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {
-                    campaign.filter((item)=>{
-                        return searchName === ''? item : item.category === searchName ;
+                    campaign.filter((item) => {
+                        return searchNameLower === ''
+                            ? item
+                            : item.category.toLowerCase() === searchNameLower;
                     }).map(campaign => <Campaign key={campaign.id} campaign={campaign}></Campaign>)
                 }
             </div>
         </section>
     );
 };
+
+AllCampaigns.propTypes ={
+    searchName: PropTypes.string
+}
 
 export default AllCampaigns;

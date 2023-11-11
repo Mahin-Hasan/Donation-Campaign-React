@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const Campaign = ({ campaign }) => {
     const { id, picture, category, title, card_bg, category_bg, text_bg } = campaign;
-    // console.log(card_bg, category_bg, text_bg);
 
     return (
         <Link to={`/donate/${id}`}>
@@ -25,5 +25,9 @@ const Campaign = ({ campaign }) => {
 
     );
 };
+
+Campaign.propTypes ={
+    campaign: PropTypes.object
+}
 
 export default Campaign;
